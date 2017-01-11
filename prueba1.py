@@ -30,4 +30,4 @@ canvas.bind_all('<KeyPress-Left>',viaje)
 canvas.bind_all('<KeyPress-Right>',viaje)
 
 
-ventana.mainloop()
+vnt.mainloop()
