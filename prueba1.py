@@ -2,9 +2,9 @@
 from tkinter import *
 y=750
 
-ventana = Tk()
-ventana.title("Prueba1 --- David Saldaña")
-canvas= Canvas(ventana, width=1100, height=600)
+vnt = Tk()
+vnt.title("Prueba1 --- David Saldaña")
+canvas= Canvas(vnt, width=1100, height=600)
 canvas.pack()
 
 img1= PhotoImage(file="nave.png")
@@ -18,7 +18,7 @@ def viaje(event):
     if event.keysym == 'Left':
         canvas.move(1,-15,0)
         y=y-3
-        print("coor x: ",1,"y: ",y)
+        print("coordenada en x: ",1,"coordenada en y: ",y)
         if y==633:
             print("HAZ ATERRIZADO EXITOSAMENTE!!!!")
       
